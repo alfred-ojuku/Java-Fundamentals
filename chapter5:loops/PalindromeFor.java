@@ -5,8 +5,10 @@ public class PalindromeFor{
 		Scanner input = new Scanner(System.in);
 
 		// user input
-		System.out.print("Enter the english word: ");
-		String m = input.nextLine();
+		// System.out.print("Enter the english word: ");
+		// String m = input.nextLine();
+
+		String m = "detartrated";
 
 		int len = m.length() - 1;
 		Boolean isPal = true;

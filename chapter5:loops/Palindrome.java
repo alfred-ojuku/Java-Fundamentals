@@ -8,8 +8,10 @@ public class Palindrome{
 		Scanner input = new Scanner(System.in);
 
 		// prompt the user to enter a string
-		System.out.print("Enter a string: ");
-		String s = input.nextLine();
+		// System.out.print("Enter a string: ");
+		// String s = input.nextLine();
+
+		String s = "detartrated";
 
 		// the index of the first character of the string
 		int low = 0;
